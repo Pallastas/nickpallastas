@@ -41,7 +41,7 @@ def main(msg):
  if(text.split()[0].upper() == "/CPF" and text.split()[1]):
   try:
    cpf = text.split()[1]
-   url = "http://thicrazybot-cf.umbler.net/aluguel_api.php?cpf="+cpf
+   url = "https://thicrazyconsultascpf.000webhostapp.com/api.php?cpf="+cpf
    api = requests.get(url)
    if(api.text == ""):
     bot.sendMessage(chat, "<b>CPF NÃO ENCONTRADO!</b>", "html")
