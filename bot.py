@@ -58,8 +58,8 @@ def main(msg):
      if(nome == ""):
       nome = "Não encontrado!"
     #nomeMae 
-    if("nomeMae" in api):
-     mae = api["nomeMae"]
+    if("mae" in api):
+     mae = api["mae"]
      if(mae == ""):
       mae = "Não encontrado!"
     #sexo
